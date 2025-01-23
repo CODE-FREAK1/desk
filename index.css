@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@media (max-width: 600px) {
+    .first-container p {
+        font-size: 0.8rem;
+    }
+    header p{
+        font-size: 0.9rem;
+    }
+    footer{
+        font-size: 13px;
+    }
+    .style a{
+        font-size: 1rem;
+        padding-top: 1%;
+    }
+} 
+    
+@media (max-width: 450px){
+    .first-container p{
+        font-size: 5px;
+    padding: 2px 5px;
+    }
+    header p{
+        font-size: 0.9rem;
+    }
+    footer{
+        font-size: 10px;
+    }
+    .text p{
+        font-size: 0.8rem;
+    }
+    
+}
+@media (max-width: 1200px) {
+    header p{
+        font-size: 1.5rem;
+    }
+    .first-container p{
+        font-size: 1.3rem;
+        padding: 0.5rem 2rem;
+    }
+    
+}
+ @media (max-width: 870px) {
+    .first-container p{
+        font-size: 1rem;
+    }
+    header p{
+        font-size: 1.3rem;
+    }
+    
+ }
+ @media (min-width: 1200px) {
+    .first-container p{
+        font-size: 1.5rem;
+    }
+    header p{
+        font-size: 1.7rem;
+    }
+    
+ }
+   
+
+header{
+    background-color: black;
+    color: white;
+    padding: 2rem 1rem;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+.first-container{
+    background-color: teal;
+    padding: 1rem 3rem;
+    font-weight: bolder;
+    font-size: 2.5rem;
+    text-align: center;
+    text-wrap: wrap;
+}
+
+.text{
+    text-align: center;
+    padding-bottom: 2rem;
+    font-size: 2rem;
+    font-weight: bolder;
+    
+}
+
+.video{
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+.video video{
+    width: 50%;
+}
+
+.content{
+    background-color: silver;
+}
+
+.button{
+    padding-top: 2rem;
+    text-align: center;
+}
+button a{
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+}
+
+.style{
+    border: none;
+    background-color: teal;
+    color: black;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bolder;
+    padding: 0.1rem 2rem;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 1rem 3rem;
+    text-wrap: wrap;
+    text-align: center;   
+    margin-top: 5rem;
+}
+
+footer p{
+    padding-bottom: 2rem;
+}
